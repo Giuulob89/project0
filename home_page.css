@@ -1,0 +1,39 @@
+  @font-face {
+    font-family: Conformable;
+    src: url(/home/giulia/Downloads/Conformable Font by 7NTypes.otf);
+  }
+
+  @font-face {
+    font-family: Relista;
+    src: url(/home/giulia/Downloads/Relista.ttf);
+  }
+
+  center {
+    color: #eb078c;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Conformable;
+  }
+
+  body {
+    background-image: url(/home/giulia/Documentos/project0/story_teller_opaco.png);
+    background-repeat: no-repeat;
+    background-position: 55% 100%;
+  }
+
+  h1 {
+    color: #4f8df7;
+    font-weight: bold;
+    font-family: Relista;
+    font-size: 56px;
+  }
+
+  p {
+    font-size: 26px;
+    color: #023896;
+  }
+
+  ol > li {
+    color: #023896;
+    font-size: 26px;
+  }
