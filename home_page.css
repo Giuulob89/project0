@@ -8,6 +8,11 @@
     src: url(/home/giulia/Downloads/Relista.ttf);
   }
 
+  @font-face {
+    font-family: Brotherline;
+    src: url(/home/giulia/Downloads/Brotherline.otf);
+  }
+
   center {
     color: #eb078c;
     font-size: 100px;
@@ -45,4 +50,26 @@
     font-size: 20px;
     color: #023896;
     text-align: center;
+  }
+
+  .botoes_sessoes a {
+    font-size: 35px;
+    font-family: Brotherline;
+    font-weight: bold;
+    color: #1227e0;
+    line-height: 1.5;
+    margin-right: 90px;
+  }
+
+  .sign_in_up a {
+    font-size: 35px;
+    font-family: Brotherline;
+    font-weight: bold;
+    color: #eb078c;
+    margin-right: 60px;
+  }
+
+  div.detalhe {
+    background-color: pink;
+    background-size: 100%;
   }
