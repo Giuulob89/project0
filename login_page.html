@@ -4,6 +4,33 @@
         <title>Story Teller</title>
     </head>
     <body>
-        Hello, World!
+        <div id = "login">
+          <form action = "" method = "post">
+            <h1>Login</h1>
+            <p>
+              <label for="name_login">Your name</label>
+              <input id="name_login" name="name_login" required = "required" type = "text"/>
+            </p>
+            <p>
+              <label for="email_login">Your e-mail</label>
+              <input id="email_login" name="email_login" required = "required" type = "text" placeholder = "Ex. contact@htmlandcsspro.com"/>
+            </p>
+            <p>
+              <label for="password_login">Your e-mail</label>
+              <input id="password_login" name="password_login" required = "required" type = "password" placeholder = "Ex. password"/>
+            </p>
+            <p>
+              <input id="stay_logged_in" name="stay_logged_in" type = "checkbox" value = ""/>
+              <label for="stay_logged_in">Stay Logged In</label>
+            </p>
+            <p>
+              <input type = "submit" value = "Login" onclick = "window.location = '/home/giulia/Documentos/project0/principal_page.html';">
+            </p>
+            <p>
+              Don't have an account yet?
+              <a href="/home/giulia/Documentos/project0/subscribe_page.html">Subscribe</a>
+            </p>
+          </form>
+        </div>
     </body>
 </html>
