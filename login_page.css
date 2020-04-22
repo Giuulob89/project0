@@ -1,3 +1,13 @@
+    @font-face {
+      font-family: Conformable;
+      src: url(/home/giulia/Downloads/Conformable Font by 7NTypes.otf);
+    }
+
+    @font-face {
+      font-family: Relista;
+      src: url(/home/giulia/Downloads/Relista.ttf);
+    }
+
     .content {
       width: 500px;
       min-height: 560px;
@@ -6,10 +16,10 @@
     }
 
     h1 {
-      font-size: 48px;
-      color: #066a75;
+      font-size: 70px;
+      color: #eb078c;
       padding: 2px 0 10px 0;
-      font-family: Arial,sans-serif;
+      font-family: Relista;
       font-weight: bold;
       text-align: center;
       padding-bottom: 30px;
@@ -21,8 +31,8 @@
       width: 100%;
       height: 2px;
       margin-top: 10px;
-      background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
-      background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+      background: -webkit-linear-gradient(left, rgba(235,7,140,0) 0%, rgba(235,7,140,0.8) 20%, rgba(235,7,140,1) 53%, rgba(235,7,140,0.8) 79%, rgba(235,7,140,0) 100%);
+      background: linear-gradient(left, rgba(235,7,140,0) 0%, rgba(235,7,140,0.8) 20%, rgba(235,7,140,1) 53%, rgba(235,7,140,0.8) 79%, rgba(235,7,140,0) 100%);
     }
 
     p {
@@ -34,18 +44,20 @@
     }
 
      label {
-       color: #405c60;
+       color: #4f8df7;
        position: relative;
+       font-family: Conformable;
+       font-size: 25px;
      }
 
      ::-webkit-input-placeholder  {
-       color: #bebcbc;
+       color: #34deeb;
        font-style: italic;
      }
 
      input:-moz-placeholder,
      textarea:-moz-placeholder{
-       color: #bebcbc;
+       color: #34deeb;
        font-style: italic;
      }
 
@@ -69,10 +81,10 @@
        transition: all 0.2s linear;
      }
 
-     input[type="submit"]{
+     button[type = "button"]{
        width: 100%!important;
        cursor: pointer;
-       background: rgb(61, 157, 179);
+       background: #eb078c;
        padding: 8px 5px;
        color: #fff;
        font-size: 20px;
@@ -87,8 +99,8 @@
      }
 
 
-     input[type="submit"]:hover{
-       background: #4ab3c6;
+     button[type = "button"]:hover{
+       background: #ff66b3;
      }
 
     .link {
@@ -134,7 +146,7 @@
       width: 88%;
       padding: 18px 6% 60px 6%;
       margin: 0 0 35px 0;
-      background: #f7f7f7;
+      background: rgb(247, 247, 247,0.8);
       border: 1px solid rgba(147, 184, 189,0.8);
 
       -webkit-box-shadow: 5px;
@@ -147,4 +159,10 @@
       animation-duration: 0.5s;
       animation-timing-function: ease;
       animation-fill-mode: both;
+    }
+
+    body {
+      background-image: url(/home/giulia/Documentos/project0/words.jpg);
+      background-repeat: no-repeat;
+      background-position: 10% 10%;
     }
