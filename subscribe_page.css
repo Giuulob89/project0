@@ -162,6 +162,6 @@
 
   body {
     background-image: url(/home/giulia/Documentos/project0/words.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: 10% 10%;
   }

@@ -43,27 +43,27 @@
       margin: 0px;
     }
 
-     label {
-       color: #4f8df7;
-       position: relative;
-       font-family: Conformable;
-       font-size: 25px;
-     }
+    label {
+      color: #4f8df7;
+      position: relative;
+      font-family: Conformable;
+      font-size: 25px;
+    }
 
-     ::-webkit-input-placeholder  {
-       color: #34deeb;
-       font-style: italic;
-     }
+    ::-webkit-input-placeholder  {
+      color: #34deeb;
+      font-style: italic;
+    }
 
-     input:-moz-placeholder,
-     textarea:-moz-placeholder{
-       color: #34deeb;
-       font-style: italic;
-     }
+    input:-moz-placeholder,
+    textarea:-moz-placeholder{
+      color: #34deeb;
+      font-style: italic;
+    }
 
-     input {
-       outline: none;
-     }
+    input {
+      outline: none;
+    }
 
      input:not([type="checkbox"]){
        width: 95%;
@@ -81,7 +81,7 @@
        transition: all 0.2s linear;
      }
 
-     button[type = "button"]{
+     input[type = "submit"]{
        width: 100%!important;
        cursor: pointer;
        background: #eb078c;
@@ -99,7 +99,7 @@
      }
 
 
-     button[type = "button"]:hover{
+     input[type = "submit"]:hover{
        background: #ff66b3;
      }
 
@@ -150,7 +150,7 @@
       border: 1px solid rgba(147, 184, 189,0.8);
 
       -webkit-box-shadow: 5px;
-      border-radius: 5px;
+      border-radius: 15px;
 
       -webkit-animation-duration: 0.5s;
       -webkit-animation-timing-function: ease;
@@ -163,6 +163,6 @@
 
     body {
       background-image: url(/home/giulia/Documentos/project0/words.jpg);
-      background-repeat: no-repeat;
+      background-repeat: repeat-y;
       background-position: 10% 10%;
     }
