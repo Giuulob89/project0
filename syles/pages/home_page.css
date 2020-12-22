@@ -1,0 +1,105 @@
+  @font-face {
+    font-family: Conformable;
+    src: url(../../assets/fonts/Conformable\ Font\ by\ 7NTypes.otf);
+  }
+
+  @font-face {
+    font-family: Relista;
+    src: url(../../assets/fonts/Relista.ttf);
+  }
+
+  @font-face {
+    font-family: Brotherline;
+    src: url(../../assets/fonts/Brotherline.ttf);
+  }
+
+  center {
+    color: #eb078c;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Conformable;
+  }
+
+  body {
+    background-image: url(../../assets/images/words.jpg);
+    background-repeat: repeat-y;
+    background-position: 55% 50%;
+  }
+
+  h1 {
+    color: #4f8df7;
+    font-weight: bold;
+    font-family: Relista;
+    font-size: 70px;
+  }
+
+  p {
+    font-size: 26px;
+    color: #023896;
+    margin-bottom: 100px;
+  }
+
+  ol > li {
+    color: #023896;
+    font-size: 26px;
+  }
+
+  ol {
+    margin-bottom: 100px;
+  }
+
+  .row > div {
+    padding: 20px;
+    background-color: pink;
+    border: 5px dotted white;
+    font-size: 20px;
+    color: #023896;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .botoes_sessoes {
+    width: 110%;
+    margin-left: 5%;
+  }
+
+  .botoes_sessoes a {
+    font-size: 35px;
+    font-family: Brotherline;
+    font-weight: bold;
+    color: #1227e0;
+  }
+
+  .sign_in_up {
+    margin-right: 5%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .sign_in_up a {
+    font-size: 35px;
+    font-family: Brotherline;
+    font-weight: bold;
+    color: #eb078c;
+  }
+
+  .sign_up {
+    margin-left: 5%;
+  }
+
+  .detalhe {
+    background-color: pink;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  img {
+    margin-bottom: 100px;
+  }
+
+  .list, .phases {
+    margin-left: 4%;
+  }

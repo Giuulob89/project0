@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Story Teller</title>
+        <link rel = "stylesheet" href = "../syles/pages/login_page.css">
+    </head>
+    <body>
+        <div class = "content">
+          <div id = "login">
+            <form action = "../pages/principal_page.html" method = "post" action="../pages/subscribe_page.html" method="post">
+              <h1>Login</h1>
+              <p>
+                <label for="name_login">Your name</label>
+                <input id="name_login" name="name_login" required = "required" type = "text" placeholder = "name"/>
+              </p>
+              <p>
+                <label for="email_login">Your e-mail</label>
+                <input id="email_login" name="email_login" required = "required" type = "text" placeholder = "Ex. name@email.com"/>
+              </p>
+              <p>
+                <label for="password_login">Your password</label>
+                <input id="password_login" name="password_login" required = "required" type = "password" placeholder = "Ex. password"/>
+              </p>
+              <p>
+                <input id="stay_logged_in" name="stay_logged_in" type = "checkbox" value = ""/>
+                <label for="stay_logged_in">Stay Logged In</label>
+              </p>
+              <p>
+                <button type="button" onclick = "window.location.href = '../pages/principal_page.html'">Login</button>
+              </p>
+              <p>
+                Don't have an account yet?
+                <a href="../pages/subscribe_page.html">Subscribe</a>
+              </p>
+            </form>
+          </div>
+        </div>
+    </body>
+</html>

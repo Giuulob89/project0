@@ -1,0 +1,35 @@
+  caption {
+    font-size: 30px;
+    font-weight: bold;
+    color: #eb078c;
+    margin-bottom: 5%;
+    margin-top: 3%;
+  }
+
+  table {
+    width: 50%;
+    border: 5px pink;
+    border-style: dotted;
+    border-collapse: collapse;
+    color: #4f8df7;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  th {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  textarea {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
