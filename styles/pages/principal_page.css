@@ -1,0 +1,149 @@
+  @font-face {
+    font-family: Quicksand-book;
+    src: url(../../assets/fonts/Quicksand_Book.otf);
+  }
+
+  @font-face {
+    font-family: Quicksand-bold;
+    src: url(../../assets/fonts/Quicksand_Bold.otf);
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 30%;
+    background-color: #EB078C;
+  }
+
+  .navbar .logo {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+  }
+
+  .navbar .logo img {
+    width: 16%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .page-content {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .sidebar {
+    position: fixed;
+    width: 286px;
+    height: 1176px;
+    background: linear-gradient(180deg, rgba(235, 7, 140, 0.7) 0%, rgba(255, 255, 255, 0) 100%), #FFC0CB;
+    margin-left: 6%;
+    border-radius: 20px;
+  }
+
+  .table {
+    margin-left: 400px;
+  }
+
+  .table .table-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    width: 85%;
+    border: 3px solid pink;
+    border-radius: 5px;
+    border-spacing: 0;
+    font-family: 'Quicksand-book';
+    margin: 0px;
+  }
+
+  caption {
+    font-size: 40px;
+    color: #023896;
+    margin-bottom: 5%;
+    margin-top: 3%;
+  }
+
+  th {
+    width: 50%;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #E8A2D1;
+    height: 40px;
+    color: #4f8df7;
+    font-family: 'Quicksand-bold';
+    font-size: 20px;
+  }
+
+  td {
+    width: 50%;
+    border-bottom: 1px solid gray;
+    border-right: 2px solid gray;
+    height: 40px;
+    text-align: center;
+    color: #023896;
+  }
+
+  .poetry, .story, .writting {
+    border-right: 0px;
+  }
+
+  .story, .suspense {
+    border-bottom: 0px;
+  }
+
+  .forms {
+    margin-left: 400px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .forms-content {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+
+  .story-title {
+    width: 100%;
+  }
+
+  .story-title input, .story textarea {
+    width: 100%;
+    border: 4px solid #FFC0CB;
+    box-sizing: border-box;
+    border-radius: 40px;
+    outline-style: none;
+  }
+
+  .story-title input {
+    height: 60px;
+  }
+
+  .story textarea {
+    height: 200px;
+  }
+
+  .story-title input::placeholder, .story textarea::placeholder {
+    font-family: 'Quicksand-book';
+    font-size: 20px;
+  }
+
+  .story-title input::placeholder {
+    padding-left: 20px;
+  }
+
+  .story textarea::placeholder {
+    padding: 20px;
+  }
+
+  .story {
+    width: 100%;
+  }
+
+  .story textarea {
+    margin-top: 15px;
+  }

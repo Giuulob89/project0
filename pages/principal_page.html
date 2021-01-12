@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Story Teller</title>
-        <link rel = "stylesheet" href = "../syles/pages/principal_page.css">
-    </head>
-    <body>
-        <table align = "center">
+
+<head>
+  <title>Story Teller</title>
+  <link rel="stylesheet" href="../styles/pages/principal_page.css">
+  <link rel="stylesheet" href="../styles/pages/global.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="../assets/images/Logotipo Menor Story Teller - Project0.png" alt="Logo">
+    </div>
+  </nav>
+  <div class=page-content>
+    <nav class="sidebar">
+
+    </nav>
+    <div class=table>
+      <div class="table-content">
+        <table>
           <caption>Suggestions of Themes and types of writting</caption>
           <tr>
             <th>Theme</th>
-            <th>Writting</th>
+            <th class="writting">Writting</th>
           </tr>
           <tr>
             <td>Food</td>
-            <td>Poetry</td>
+            <td class="poetry">Poetry</td>
           </tr>
           <tr>
-            <td>Suspense</td>
-            <td>Story</td>
+            <td class="suspense">Suspense</td>
+            <td class="story">Story</td>
           </tr>
         </table>
-        <h1>Write your history here:</h1>
-        <form action = "" method = "post">
-          <div align = "center">
-            <label for = "first_name">First Name:</label>
-            <input type="text" id = "first_name">
-          </div>
-          <div align = "center">
-            <label for = "text">Your Text:</label>
-            <textarea id = "text"></textarea>
-          </div>
-          <div align = "center">
-            <input type = "submit" value = "Done">
-          </div>
-        </form>
-    </body>
+      </div>
+    </div>
+    <div class="forms">
+      <form action="" method="post" class="forms-content">
+        <div class="story-title">
+          <input type="text" id="first_name" placeholder="What's the name of your story?">
+        </div>
+        <div class="story">
+          <textarea id="text" placeholder="What would you like to tell today?"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Done">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
 </html>
