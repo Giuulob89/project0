@@ -29,16 +29,85 @@
 
   .page-content {
     margin-top: 30px;
+    margin-bottom: 30px;
     width: 100%;
   }
 
   .sidebar {
     position: fixed;
     width: 286px;
-    height: 1176px;
+    height: 78%;
     background: linear-gradient(180deg, rgba(235, 7, 140, 0.7) 0%, rgba(255, 255, 255, 0) 100%), #FFC0CB;
     margin-left: 6%;
     border-radius: 20px;
+  }
+
+  .sidebar .sidebar-content {
+    padding: 5px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar .sidebar-content .user-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sidebar .sidebar-content .user-img img {
+    width: 64px;
+  }
+
+  .sidebar .sidebar-content .user-informations {
+    margin-top: 10px;
+  }
+
+  .sidebar .sidebar-content .user-informations p {
+    text-align: center;
+  }
+
+  .sidebar .sidebar-content .user-informations .user-name {
+    color: #4f8df7;
+    font-size: 20px;
+    font-family: 'Quicksand-bold';
+  }
+
+  .sidebar .sidebar-content .user-informations .told-stories, .views {
+    color: #023896;
+    font-size: 16px;
+    font-family: 'Quicksand-book';
+    margin-top: 10px;
+  }
+
+  .sidebar .sidebar-content .division-bar {
+    width: 278px;
+    height: 0px;
+    background-color: gray;
+    border: 1px solid gray;
+    margin-top: 30px;
+  }
+
+  .sidebar .sidebar-content .sidebar-topics {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px 0px 42px;
+  }
+
+  .sidebar .sidebar-content .sidebar-topics .first-topic {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sidebar .sidebar-content .sidebar-topics .first-topic img {
+    width: 10%;
+  }
+
+  .sidebar .sidebar-content .sidebar-topics .first-topic .principal-page {
+    color: #4f8df7;
+    font-size: 20px;
+    font-family: 'Quicksand-bold';
+    margin-left: 10px;
+    margin-top: 5px;
   }
 
   .table {
@@ -132,6 +201,10 @@
     font-size: 20px;
   }
 
+  .story-title input::placeholder, .story textarea::selection {
+    margin-left: 30px;
+  }
+
   .story-title input::placeholder {
     padding-left: 20px;
   }
@@ -146,4 +219,38 @@
 
   .story textarea {
     margin-top: 15px;
+  }
+
+  .forms-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+  }
+
+  .forms-button button {
+    width: 20%;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #EB078C;
+    border-color: transparent;
+  }
+
+  .forms-button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Quicksand-bold';
+    font-size: 18px;
+  }
+
+  .post-box {
+    margin-left: 480px;
+    margin-top: 30px;
+  }
+
+  .post-box-content {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 100%), #E8A2D1;
+    border: 1px solid gray;
+    width: 92%;
+    height: 400px;
+    border-radius: 40px;
   }
